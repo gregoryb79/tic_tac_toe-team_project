@@ -19,4 +19,8 @@ export function updateBoard(row:number, column:number,mark:string){
     board[row][column] = mark;
 }
 
+export function resetBoard(size:number){
+    
+}
+
 let board: string[][] = [];
