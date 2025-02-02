@@ -14,4 +14,8 @@ export function storeScore(){
 
 }
 
-export function
+export function updateBoard(){
+
+}
+
+let board: [][] = [];

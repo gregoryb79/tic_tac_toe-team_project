@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-exports.storeScore = exports.checkdiagonals = exports.checkrow = exports.checkcolumn = void 0;
+exports.updateBoard = exports.storeScore = exports.checkdiagonals = exports.checkrow = exports.checkcolumn = void 0;
 function checkcolumn() {
     return winner;
 }
@@ -16,3 +16,7 @@ exports.checkdiagonals = checkdiagonals;
 function storeScore() {
 }
 exports.storeScore = storeScore;
+function updateBoard() {
+}
+exports.updateBoard = updateBoard;
+var board = [];
