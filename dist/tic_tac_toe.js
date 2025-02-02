@@ -16,7 +16,8 @@ exports.checkdiagonals = checkdiagonals;
 function storeScore() {
 }
 exports.storeScore = storeScore;
-function updateBoard() {
+function updateBoard(row, column, mark) {
+    board[row][column] = mark;
 }
 exports.updateBoard = updateBoard;
 var board = [];
