@@ -50,4 +50,3 @@ export function testCheckDiagonals() {
     const winner = checkDiagonals();
     console.log(`winner is: ${winner}`);
 }
-//testCheckDiagonals();

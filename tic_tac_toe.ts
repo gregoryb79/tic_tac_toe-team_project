@@ -73,5 +73,5 @@ export function testCheckDiagonals (){
     console.log(`winner is: ${winner}`);
 }
 
-//testCheckDiagonals();
+
 
